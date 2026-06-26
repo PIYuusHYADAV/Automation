@@ -1,0 +1,25 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+
+    "module": "CommonJS",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+
+    "types": ["node"],
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "moduleDetection": "force"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "dist", "prisma"]
+}
