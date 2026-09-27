@@ -8,12 +8,12 @@ import { logger } from "../middleware/logger.js";
 const app = express();
 const PORT = 8000;
 connectDB();
-
+osajdoajsdijsspcjsdsovnlkncn
 app.use(requestId);
 app.use(logger);
 app.use(express.json());
 app.get("/quotes", async (req, res) => {
-  try {
+  try {sdiasld
     const quotes = await db.select().from(quoteRequests);
 
     res.status(200).json(quotes);
